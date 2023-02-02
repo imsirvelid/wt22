@@ -1,0 +1,55 @@
+table td, th{
+    border: 1px solid black;
+}
+
+table th {
+    background-color: rgb(162, 161, 161);
+    min-width: 57px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 20px 20px;
+    vertical-align: top;
+    border: 1px solid black;
+}
+
+table tr {
+    height: 50px;
+}
+
+table td {
+    padding: 5px 10px;
+    text-align: center;
+    width: auto;
+    vertical-align: top;
+    justify-content: flex-start;
+    justify-items: flex-start;
+}
+tr.prazan .nema {
+    border-top: 0;   
+}
+
+.prljavo {
+    border: 0;
+}
+
+tr.popunjen td {
+    border-bottom: 1px solid black;
+}
+
+.zeleno {
+    background-color: rgb(70, 145, 70);
+}
+
+.crveno {
+    background-color: rgb(226, 84, 84);
+}
+
+.bijelo {
+    background-color: white;
+}
+
+button {
+    margin-left: 20px;
+}

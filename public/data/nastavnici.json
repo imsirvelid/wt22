@@ -1,0 +1,40 @@
+[
+    {
+        "nastavnik": {
+            "username": "vimsirovic",
+            "password_hash": "$2b$10$7xlW3ybh8c78l5zGegpT/OC9lrwbvY/QP4bxQyHH1kP/UlVyXwbu."
+        },
+        "predmeti": [
+            "IM 1",
+            "IM 2",
+            "DM"
+        ]
+    },
+    {
+        "nastavnik": {
+            "username": "mmujo",
+            "password_hash": "$2b$10$FU6PH5InaungJXgXBh2BpOIldgD3XNvcz/wcH5l9au/x84qNYFHby"
+        },
+        "predmeti": [
+            "OIS"
+        ]
+    },
+    {
+        "nastavnik": {
+            "username": "USERNAME1",
+            "password_hash": "$2b$10$FU6PH5InaungJXgXBh2BpOIldgD3XNvcz/wcH5l9au/x84qNYFHby"
+        },
+        "predmeti": [
+            "OIS"
+        ]
+    },
+    {
+        "nastavnik": {
+            "username": "USERNAME2",
+            "password_hash": "$2b$10$FU6PH5InaungJXgXBh2BpOIldgD3XNvcz/wcH5l9au/x84qNYFHby"
+        },
+        "predmeti": [
+            "OIS"
+        ]
+    }
+]

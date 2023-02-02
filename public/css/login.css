@@ -1,0 +1,19 @@
+.container {
+    margin-top: 100px;
+}
+
+.form-group {
+    margin-top: 10px;
+}
+
+button[type=submit] {
+    margin-top: 20px;
+    float: right;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+#greskaPoruka {
+    color: red;
+    text-align: center;
+}

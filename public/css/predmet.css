@@ -1,0 +1,33 @@
+ul li{
+    margin-right: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    display: inline;
+}
+
+nav {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    background-color: aliceblue;
+    border-radius: 13px;
+    height: 40px;
+}
+
+#divLista {
+    width: 95%;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.container {
+    margin-top: 40px;
+}
+
+#greskaPoruka {
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+}
+
+.nav-button {
+    float: right;
+}
