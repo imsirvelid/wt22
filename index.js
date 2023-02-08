@@ -24,6 +24,13 @@ app.use(session({
  }));
  
 
+app.get('/', async function(req, res){
+    res.writeHead(302, {
+        'Location': 'login.html'
+      });
+    res.end();
+});
+
 app.post('/login', async function(req, res){
     var validLogin = false;
     var nastavnik = await db.nastavnik.findOne({ where: {username: req.body.username}});
