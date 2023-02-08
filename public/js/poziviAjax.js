@@ -41,6 +41,12 @@ const PoziviAjax = (()=>{
         ajax.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
         ajax.send("username=" + username + "&password=" + password);
     }
+
+    function impl_isLoggedIn(fnCallback){
+        $.get("/predmeti", function(data, status){
+            fnCallback();
+        });
+    }
     function impl_postLogout(fnCallback){
         var ajax = new XMLHttpRequest();
         ajax.onreadystatechange = function() {
@@ -74,6 +80,7 @@ const PoziviAjax = (()=>{
         postLogout: impl_postLogout,
         getPredmet: impl_getPredmet,
         getPredmeti: impl_getPredmeti,
-        postPrisustvo: impl_postPrisustvo
+        postPrisustvo: impl_postPrisustvo,
+        isloggedIn: impl_isLoggedIn
     };
 })();
