@@ -6,7 +6,8 @@ const session = require('express-session');
 const app = express();
 const { Op } = require("sequelize");
 
-const db = require('./db.js')
+const db = require('./sqlite3.js')
+
 /*db.sequelize.sync({force:false}).then(function(){
     console.log("Trebalo bi da je to to");
 });*/

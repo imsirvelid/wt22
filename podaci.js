@@ -1,4 +1,4 @@
-const db = require('./db.js')
+const db = require('./sqlite3.js')
 
 db.sequelize.sync({force:false}).then(function(){
     console.log("Trebalo bi da je to to");

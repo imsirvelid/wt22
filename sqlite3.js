@@ -6,8 +6,6 @@ const sequelize = new Sequelize({
     storage: "./database.sqlite"
 });
 
-
-console.log(sequelize);
 const db={};
 
 db.Sequelize = Sequelize;  
@@ -27,7 +25,5 @@ db.predmet.hasMany(db.prisustvo);
 db.prisustvo.belongsTo(db.predmet);
 db.student.hasMany(db.prisustvo);
 db.prisustvo.belongsTo(db.student);
-
-
 
 module.exports=db;
