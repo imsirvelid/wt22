@@ -5,6 +5,9 @@ const sequelize = new Sequelize({
     dialect: "sqlite",
     storage: "./database.sqlite"
 });
+
+
+console.log(sequelize);
 const db={};
 
 db.Sequelize = Sequelize;  
